@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    
+    border-radius: 2px;
+    background: #323232 ;
+    
+    padding: 15px 0;
+}
+nav ul li{
+    display: inline-block;
+   padding-left:130px;
+    
+    
+}
+nav ul li a{
+    color: #D8D8D8;
+    text-transform: uppercase;
+    font-size: 15x;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a:hover{
+    color: red;
+    transition: .6s;
+}
+.slider h1{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0 200px;
+    position: absolute;
+    top: 80%;
+}
+
+.slider{
+    padding: 300px 0;
+    position: relative;
+}
+
+.one{
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/pexels-neil-kelly-712618.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.two{
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/bike.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.three{
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/pexels-alain-frechette-1431117.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.four{
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/scooter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.five{
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/pexels-roman-odintsov-6585322.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.six{
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/pexels-pixabay-40753.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.prev{
+    
+    top: 50%;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+   transform: translateY(-50%);
+    z-index: 999;
+    position: absolute;
+}
+
+
+
+.prev:hover{
+    color: rgb(255, 0, 0);
+    transition: .7s;
+}
+
+.next{
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    transform: translateY(-50%);
+    right: 0%;
+    top: 50%;
+    z-index: 999;
+    position: absolute;
+}
+
+.next:hover{
+    color: rgb(255, 0, 0);
+    transition: .7s;
+}
+
+.slick-dots{
+    
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.219);
+    margin-right: 3px;
+    height: 8px;
+    width: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    text-indent: -9999px;
+    transition: .999999999999999999999999999999s;
+}
+
+li.slick-active button{
+    background-color: rgb(255, 255, 255);
+    transition: .6s;
+}
+
+
+
+
+
+
+
+
+.car_slide{
+    padding: 100px 300px;
+    position: relative;
+    background: black;
+    
+}
+
+.carone{
+    border-radius: 10px;
+    border:13px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)),url(../images/pexels-abdulwahab-alawadhi-3422964.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.cartwo{
+    border-radius: 10px;
+    border:13px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-broderick-armbrister-6462662.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carthree{
+    border-radius: 10px;
+    border:13px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-garvin-st-villier-3972755.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.carfour{
+    border-radius: 10px;
+    border:13px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-garvin-st-villier-3311574.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.carprev{
+    
+    top: 50%;
+    color: rgba(255, 255, 255, 0.404);
+    border-radius: 50px;
+    border: 3px solid rgba(0, 0, 0, 0.541);
+   transform: translateY(-50%);
+    z-index: 999;
+    position: absolute;
+}
+
+
+
+.carprev:hover{
+    color: rgb(255, 0, 0);
+    transition: .7s;
+}
+
+
+
+.carnext{
+    color: rgba(255, 255, 255, 0.274);
+    border-radius: 50px;
+    border: 3px solid rgba(0, 0, 0, 0.459);
+    transform: translateY(-50%);
+    right: 22.5%;
+    top: 50%;
+    z-index: 999;
+    position: absolute;
+}
+
+.carnext:hover{
+    color: rgb(255, 0, 0);
+    transition: .7s;
+}
+
+
+.car_slide .slick-dots{
+    
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+
+
+
+.car_slide button{
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: .999999999999999999999999999999s;
+}
+
+.bike_slide button{
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 10px solid rgb(255, 252, 252);
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: .999999999999999999999999999999s;
+}
+
+.car_slide li.slick-active button{
+    background-color: rgb(255, 0, 0);
+    transition: .6s;
+}
+
+
+.bike_slide li.slick-active button{
+    background-color: rgb(255, 0, 0);
+    transition: .6s;
+}
+
+
+.bike_slide .slick-dots{
+    
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 53px;
+}
+
+
+.bike_slide{
+    padding: 100px 300px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    
+}
+
+
+
+
+.bikeone{
+    border-radius: 10px;
+    border: 13px solid black;
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(../images/pexels-abhinav-9269542.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.biketwo{
+    border-radius: 10px;
+    border:13px solid black;
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/pexels-pepe-tapia-716906.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bikethree{
+    border-radius: 10px;
+    border: 13px solid black;
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/pexels-vikram-sundaramoorthy-1119796.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bikefour{
+    border-radius: 10px;
+    border: 13px solid black;
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/pexels-pixabay-104842.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#second_part{
+    background: black;
+    position: relative;
+}
+
+#second_part h1{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    z-index: 99999;
+}
+
+.car_slide{
+    position: relative;
+}
+
+
+#third_part{
+    background: white;
+    position: relative;
+}
+
+#third_part h1{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    z-index: 99999;
+}
+
+/* FOUR PART START  */
+
+#four_part{
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.cycle_slide{
+    padding: 100px 300px;
+    position: relative;
+    background: black;
+    
+}
+
+.cycleone{
+    border-radius: 10px;
+    border:15px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)),url(../images/pexels-cottonbro-studio-5464921.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.cycletwo{
+    border-radius: 10px;
+    border:15px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-cristiana-raluca-686230.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cyclethree{
+    border-radius: 10px;
+    border:15px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-leandro-boogalu-1149601.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.cyclefour{
+    border-radius: 10px;
+    border:15px solid rgb(255, 255, 255);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-philipp-m-100582.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#four_part h1{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    z-index: 99999;
+}
+
+.cycle_slide .slick-dots{
+    
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+
+
+.cycle_slide button{
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: .999999999999999999999999999999s;
+}
+
+.cycle_slide li.slick-active button{
+    background-color: rgb(255, 0, 0);
+    transition: .6s;
+}
+
+/* FOUR PART END  */
+
+
+/* FIVE PART START  */
+
+
+
+#five_part{
+    background: #ffffff;
+    position: relative;
+}
+
+.boat_slide{
+    padding: 100px 300px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    
+}
+
+.boatone{
+    border-radius: 10px;
+    border:15px solid rgb(0, 0, 0);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)),url(../images/pexels-george-desipris-804981.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.boattwo{
+    border-radius: 10px;
+    border:15px solid rgb(0, 0, 0);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-photoklickr-244517.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boatthree{
+    border-radius: 10px;
+    border:15px solid rgb(0, 0, 0);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-pixabay-37859.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.boatfour{
+    border-radius: 10px;
+    border:15px solid rgb(0, 0, 0);
+    padding: 200px 100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/pexels-pixabay-163236.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#five_part h1{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    z-index: 99999;
+}
+
+.boat_slide .slick-dots{
+    
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+
+
+.boat_slide button{
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: .999999999999999999999999999999s;
+}
+
+.boat_slide li.slick-active button{
+    background-color: rgb(255, 0, 0);
+    transition: .6s;
+}
+
+/* FIVE PART END  */
